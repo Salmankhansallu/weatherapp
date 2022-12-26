@@ -21,7 +21,7 @@
        // console.log(arr[0].main.temp);
        const realtimedata=arr.map((val)=>replaceVal(homefile,val)).join("");
        res.write(realtimedata);
-    //    console.log(realtimedata);
+       console.log("Hello Everyone");
     })
     .on('end',  (err) =>{
       if (err) return console.log('connection closed due to errors', err);
